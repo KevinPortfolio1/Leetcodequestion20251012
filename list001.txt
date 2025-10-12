@@ -1,0 +1,172 @@
+Leetocde question
+	Array
+	String
+	Hash Table
+	Dynamic Programming
+	Math
+	Sorting
+	Greedy
+	Depth-First Search
+	Binary Search
+	Database
+	Matrix
+	Bit Manipulation
+	Tree
+	Breadth-First Search
+	Two Pointers
+	Prefix Sum
+	Heap (Priority Queue)
+	Simulation
+	Binary Tree
+	Graph
+	Counting
+	Stack
+	Sliding Window
+	Design
+	Enumeration
+	Backtracking
+	Union Find
+	Number Theory
+	Linked List
+	Ordered Set
+	Monotonic Stack
+	Segment Tree
+	Trie
+	Combinatorics
+	Bitmask
+	Divide and Conquer
+	Queue
+	Recursion
+	Geometry
+	Binary Indexed Tree
+	Memoization
+	Hash Function
+	Binary Search Tree
+	Shortest Path
+	String Matching
+	Topological Sort
+	Rolling Hash
+	Game Theory
+	Interactive
+	Data Stream
+	Monotonic Queue
+	Brainteaser
+	Doubly-Linked List
+	Randomized
+	Merge Sort
+	Counting Sort
+	Iterator
+	Concurrency
+	Line Sweep
+	Probability and Statistics
+	Quickselect
+	Suffix Array
+	Minimum Spanning Tree
+	Bucket Sort
+	Shell
+	Reservoir Sampling
+	Strongly Connected Component
+	Eulerian Circuit
+	Radix Sort
+	Rejection Sampling
+	Biconnected Component
+	
+LeetCode 題目中常見的分類
+	資料結構（如：Array、Hash Table、Tree、Heap）
+	演算法技巧（如：Dynamic Programming、Greedy、Backtracking）
+	搜尋技巧（如：DFS、BFS、Binary Search）
+	特殊技術或應用（如：Rolling Hash、Suffix Array、Reservoir Sampling）
+	
+| 標籤                                     | 意義 / 重點                         | 常見解題技巧或注意點                                           |
+| -------------------------------------- | ------------------------------- | ---------------------------------------------------- |
+| **Array**                              | 陣列相關操作、遍歷、索引、區間                 | 索引運算、前綴和（prefix sum）、雙指針滑窗、排序                        |
+| **String**                             | 字串處理、字符操作、模式匹配                  | KMP、滑窗、雙指針、字串哈希、字串反轉/拼接                              |
+| **Hash Table**                         | 使用雜湊結構（如 map、unordered_map、哈希表） | 快速查找 (O(1) 平均)、處理重複／頻率統計、映射關係                        |
+| **Dynamic Programming (DP)**           | 狀態轉移、記憶最優解                      | 定義 dp 狀態、轉移方程、邊界條件、滾動陣列、記憶化或自底向上                     |
+| **Math**                               | 數學運算、組合數學、模運算                   | 質因數分解、最大公因數 (GCD)、模運算 (mod)、數列公式                     |
+| **Sorting**                            | 排序操作                            | 排序演算法（快排、歸併、堆排序等），排序後的遍歷邏輯                           |
+| **Greedy**                             | 貪心策略                            | 當局部最優解能導出全局最優，選擇每步最優操作                               |
+| **Depth-First Search (DFS)**           | 深度遍歷、遞迴探索                       | 回溯、狀態空間樹、剪枝、遞迴邊界控制                                   |
+| **Binary Search**                      | 在有序序列上二分查找                      | 上界／下界、邊界條件、變體（如 搜最接近、搜索條件滿足性）                        |
+| **Database**                           | 與資料庫／SQL 查詢有關題目                 | SQL 語句、聯結 (JOIN)、子查詢、聚合函數                            |
+| **Matrix**                             | 二維陣列 / 矩陣操作                     | 二維遍歷、旋轉、翻轉、子矩陣計算（前綴和 / 差分陣列）                         |
+| **Bit Manipulation**                   | 位元運算                            | 位元運算技巧 (AND, OR, XOR, shift)、位元掩碼 (mask)、奇偶性         |
+| **Tree**                               | 樹結構                             | 樹的遍歷 (preorder, inorder, postorder)、遞迴操作、子問題         |
+| **Breadth-First Search (BFS)**         | 層序遍歷 / 廣度遍歷                     | 階層遍歷、最短路徑問題（無權圖）、Queue 實現                            |
+| **Two Pointers**                       | 雙指針技巧                           | 左右指標協調移動、滑窗變體、配對問題                                   |
+| **Prefix Sum**                         | 前綴和 / 差分技巧                      | 快速求區間和、轉化查詢問題為常數時間                                   |
+| **Heap (Priority Queue)**              | 優先隊列 / 最大／最小堆                   | 堆操作 (push, pop)、維護 top‑k、滑動窗口最大值                     |
+| **Simulation**                         | 模擬題意                            | 按題意一步步模擬流程，注意邊界條件                                    |
+| **Binary Tree**                        | 二叉樹專門分類                         | 遞迴遍歷、子樹結構、平衡性、深度、鏡像等                                 |
+| **Graph**                              | 圖結構                             | 邊表／鄰接表表示、DFS/BFS、最短路徑 (Dijkstra、Bellman‑Ford 等)、拓撲排序 |
+| **Counting**                           | 計數 / 組合計算                       | 統計、排列組合、頻率分析                                         |
+| **Stack**                              | 棧結構                             | 括號匹配、中序遍歷 (用棧模擬)、單調棧技巧                               |
+| **Sliding Window**                     | 滑窗技巧                            | 子陣列 / 子串的動態窗口擴展與收縮                                   |
+| **Design**                             | 設計題                             | 類／物件設計、API 設計、數據結構設計、系統設計                            |
+| **Enumeration**                        | 枚舉 / 列舉                         | 列出所有可能性（可能加剪枝）                                       |
+| **Backtracking**                       | 回溯                              | 排列組合、DFS + 剪枝、狀態重複避免                                 |
+| **Union Find**                         | 聯合查找 / 不相交集                     | 集合合併、查找根節點、連通性判定                                     |
+| **Number Theory**                      | 數論                              | 質數、模反元素、歐幾里得算法等                                      |
+| **Linked List**                        | 鏈結串列                            | 插入、刪除、翻轉、合併、快慢指標                                     |
+| **Ordered Set**                        | 有序集合 / 平衡樹                      | 存取有序性操作（如 C++ 的 set / TreeSet）                       |
+| **Monotonic Stack**                    | 單調棧                             | 維護棧中元素單調性，解決 Next Greater / Next Smaller 類問題         |
+| **Segment Tree**                       | 區間樹                             | 區間查詢與更新、線段樹懶標記                                       |
+| **Trie**                               | 字典樹                             | 字串查找、前綴操作、字典匹配                                       |
+| **Combinatorics**                      | 組合數學                            | 排列、組合、Catalan 數等                                     |
+| **Bitmask**                            | 位掩碼枚舉                           | 狀態壓縮（如 subset 枚舉）、位運算表示狀態                            |
+| **Divide and Conquer**                 | 分治                              | 分割成子問題遞迴解、合併結果（如快速排序、分治算法）                           |
+| **Queue**                              | 佇列結構                            | FIFO 操作、BFS 實作等                                      |
+| **Recursion**                          | 遞迴                              | 子問題遞迴、狀態維持、邊界條件                                      |
+| **Geometry**                           | 幾何                              | 幾何運算 (點、線、面)、交叉 / 包含、凸包                              |
+| **Binary Indexed Tree (Fenwick Tree)** | 樹狀數組                            | 區間查詢與更新 (prefix sums)                                |
+| **Memoization**                        | 記憶化                             | 儲存子問題結果避免重複計算（通常與遞迴一起）                               |
+| **Hash Function**                      | 哈希函式                            | 字串 / 結構的哈希映射、哈希碰撞處理                                  |
+| **Binary Search Tree (BST)**           | 二叉搜尋樹                           | BST 的屬性（左 < 根 < 右）、插入／查找／刪除操作                        |
+| **Shortest Path**                      | 最短路徑                            | 單源最短 (Dijkstra)、多源最短 (Floyd-Warshall)、Bellman-Ford   |
+| **String Matching**                    | 字串匹配                            | KMP、Rabin-Karp、Z 演算法等                                |
+| **Topological Sort**                   | 拓撲排序                            | 有向無環圖 (DAG)，排序、檢測循環                                  |
+| **Rolling Hash**                       | 滾動哈希                            | 用於子串匹配 / 哈希滑窗 (如 Rabin-Karp)                         |
+| **Game Theory**                        | 遊戲理論                            | Nim、博弈、SG 函數等                                        |
+| **Interactive**                        | 互動題                             | 與 judge 互動（輸入 / 輸出互動）                                |
+| **Data Stream**                        | 資料流                             | 線上 / 實時流處理、滑動窗口數據統計                                  |
+| **Monotonic Queue**                    | 單調佇列                            | 維護窗口內最值 / 次最值 / 特定性質                                 |
+| **Brainteaser**                        | 腦筋急轉彎 / 難題                      | 題意巧思、非常規技巧                                           |
+| **Doubly-Linked List**                 | 雙向鏈表                            | 雙向節點操作、前後指標操作                                        |
+| **Randomized**                         | 隨機 / 機率                         | 隨機選擇、隨機化演算法                                          |
+| **Merge Sort**                         | 合併排序                            | 分治 + 合併策略                                            |
+| **Counting Sort**                      | 計數排序                            | 當數值範圍有限時的排序技巧                                        |
+| **Iterator**                           | 迭代器                             | 自定義迭代器、內部遍歷控制                                        |
+| **Concurrency**                        | 並發 / 多線程                        | 鎖、原子操作、同步 / 非同步設計                                    |
+| **Line Sweep**                         | 掃描線                             | 幾何 / 區間問題用掃描線技巧                                      |
+| **Probability and Statistics**         | 機率 / 統計                         | 隨機分佈、期望值、方差、蒙地卡羅法                                    |
+| **Quickselect**                        | 快速選擇                            | 在無序陣列中找第 k 大元素（類似快速排序思想）                             |
+| **Suffix Array**                       | 後綴陣列                            | 字串處理、模式匹配、後綴排序                                       |
+| **Minimum Spanning Tree**              | 最小生成樹                           | Kruskal、Prim 演算法                                     |
+| **Bucket Sort**                        | 桶排序                             | 分桶 + 排序 / 分布均勻情況下效率高                                 |
+| **Shell**                              | 希爾排序                            | 插入排序的改良版本                                            |
+| **Reservoir Sampling**                 | 水塘抽樣                            | 在資料流中隨機抽樣技巧                                          |
+| **Strongly Connected Component**       | 強連通分量                           | Tarjan / Kosaraju 演算法                                |
+| **Eulerian Circuit**                   | 歐拉迴路 / 路徑                       | 圖中遍歷每條邊恰好一次的路徑／回路                                    |
+| **Radix Sort**                         | 基數排序                            | 多位數排序（如按位排序）                                         |
+| **Rejection Sampling**                 | 拒絕抽樣                            | 隨機抽樣方法，用於概率分佈                                        |
+| **Biconnected Component**              | 雙連通分量                           | 圖結構中的割點 / 邊、無向圖分量                                    |
+| **Interactive** *(註：上面已列，但這類題比較少見)*    | 用戶與判題系統互動    | 通常透過特殊 API / 輸出格式來交互    
+
+| LeetCode 標籤                        | 考試選擇項目    | 常見題型說明              |
+| ---------------------------------- | ----------- | ------------------- |
+| Array / String                     | 資料結構、基礎程式設計 | 陣列操作、字串轉換、迴圈控制      |
+| Hash Table                         | 資料結構（雜湊表）   | 採用雜湊解決搜尋與計數問題       |
+| Stack / Queue                      | 資料結構題目      | 進出順序、模擬記憶體行為        |
+| Tree / Binary Tree / BST           | 樹狀結構、遞迴     | 前序／中序／後序遍歷，搜尋與插入    |
+| Graph / DFS / BFS / Union Find     | 圖論、連通性      | 拓撲排序、最短路徑、遍歷演算法     |
+| Dynamic Programming                | 演算法設計       | 最佳子結構、重疊子問題         |
+| Greedy                             | 邏輯設計、貪婪法    | 最大值／最小值策略、排程問題      |
+| Binary Search / Divide and Conquer | 搜尋法、分治法     | O(log n) 搜尋技巧、排序演算法 |
+| Sorting / Heap                     | 排序與優先佇列     | 快速排序、合併排序、堆排序       |
+| Bit Manipulation / Bitmask         | 位元運算        | 二進位計算、權限設計          |
+| Recursion / Backtracking           | 遞迴法         | 狀態空間樹、解排列組合問題       |
+| Prefix Sum / Sliding Window        | 範圍查詢優化      | 區間總和、滑動最值           |
+| Trie                               | 字典結構        | 高速字串查找              |
+| Segment Tree / BIT                 | 進階資料結構      | 區間查詢與更新（進階選修）       |
+
+                            
