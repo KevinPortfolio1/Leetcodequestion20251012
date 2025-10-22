@@ -1,0 +1,27 @@
+Leetcode 175
+
+# 進行 LEFT JOIN
+result = pd.merge(person, address, on='PersonId', how='left')
+
+# 選擇要的欄位（順序和題目相同）
+result = result[['FirstName', 'LastName', 'City', 'State']]
+
+print(result)
+
+
+
+為什麼在實務上要用 pandas？
+
+資料通常來自多個系統（CRM、ERP、POS）
+要整合清洗，才能做分析、視覺化或建模
+pandas 是 Python 處理資料最強大的工具之一，適用於 ETL、資料科學、財務分析等各種場合
+
+
+pandas 資料處理 6 大步驟（ETL + 分析）
+1. 資料讀取（Data Ingestion）
+2. 資料清理（Cleaning）
+3. 資料轉換（Transform / Wrangling）
+4. 探索性分析（EDA）
+5. 分析 / 建模（分析 or ML）
+6. 輸出 / 儲存結果
+

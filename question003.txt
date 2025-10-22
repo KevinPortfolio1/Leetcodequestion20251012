@@ -1,0 +1,40 @@
+2619. Array Prototype Last
+
+JavaScript 原型（Prototype）鏈的擴充與操作
+this 在物件方法中的指向
+基本的容錯處理（防止空陣列出錯）
+
+實際開發中，你會這樣實作一個安全的 getLast 函式，而不是修改原型
+arr → Array.prototype → Object.prototype → null
+this 是指執行上下文的物件，依照呼叫方式不同會有不同的指向。
+
+實務常見錯誤處理場景
+  使用者輸入驗證
+    throw new Error("使用者名稱無效");
+  處理 API call 的失敗
+  Array 操作加上容錯
+  
+let count: number = 10;
+let count = 10; // 沒有靜態型別檢查
+
+JavaScript無泛型功能
+JavaScriptES6+ 有 class，但沒有真正的 private（除非用 #）
+
+
+實際專案選擇建議
+專案類型						建議使用
+小型原型、Demo、腳本工具		JavaScript（快速輕量）
+中大型 Web 應用					✅ TypeScript（避免大型錯誤）
+多人協作專案					✅ TypeScript（強型別利於維護）
+搭配框架（React, Vue, Angular）	✅ TypeScript 越來越成為主流
+
+🧾 總結
+JavaScript				TypeScript
+動態型別				靜態型別
+無編譯型別檢查			編譯期發現錯誤
+較快上手				初期學習曲線較高，但長期效率更高
+開發快但容易錯			開發稍慢但更安全
+
+
+
+

@@ -1,0 +1,91 @@
+ Array / String   
+   陣列操作、字串轉換、迴圈控制 
+   1. Two Sum
+     從給予的數值 推理出尋找的目標值
+      c語言中 指標
+	      動態位置
+	     int* arr = (int*)malloc(5 * sizeof(int));
+ Hash Table
+   採用雜湊解決搜尋與計數問題
+       13. Roman to Integer
+	      unordered_map
+		  使用 哈希表（Hash Table） 實現，存取速度是 平均 O(1)。
+			和 map(紅黑樹) 不同，unordered_map 不會自動排序鍵（key）。
+		
+ Stack / Queue 
+   進出順序、模擬記憶體行為
+   20. Valid Parentheses
+     stack 不能隨機存取（不像 vector 或 deque 可以用索引）
+      
+ Tree / Binary Tree / BST
+    前序／中序／後序遍歷，搜尋與插入
+	94. Binary Tree Inorder Traversal
+	   中序順序（左 ➜ 根 ➜ 右）
+	   ArrayList 動態陣列 查詢多、插入刪除少
+	   LinkedList 雙向鏈結串列  插入刪除多
+	   Vector
+	
+ Graph / DFS / BFS / Union Find
+    拓撲排序、最短路徑、遍歷演算法 
+	133. Clone Graph
+	  走訪方式 BFS 遍歷原圖
+	  存圖方式  map<int, vector<int>> 
+	  建議用 unordered_map<int, Node*> 來對應原圖的 val → 克隆節點
+	
+ Dynamic Programming  
+    最佳子結構、重疊子問題    
+	118. Pascal's Triangle
+	  帕斯卡三角形
+	  
+	  帕斯卡三角形的規則：
+		每一行的第一個與最後一個數都是 1
+		中間的數是「上一行的左上與正上方數字相加」
+		
+	List<List<Integer>>
+	表示一個「儲存多個 List<Integer> 的 List」
+	
+ Greedy
+    最大值／最小值策略、排程問題
+	409. Longest Palindrome
+	 中心只能有最多 一個奇數次的字母
+		其他字母都要成對出現（偶數次）
+	Map<Character, Integer>：記錄字元出現次數
+	
+ Binary Search / Divide and Conquer
+       搜尋技巧、排序演算法 
+	   108. Convert Sorted Array to Binary Search Tree
+	     給定一個升序排序的整數陣列 nums，將其轉換為一棵高度平衡的二元搜尋樹（BST）。
+		 左右子樹的高度差不超過 1
+	     分治法（Divide and Conquer）+ 遞迴
+	   
+ Sorting / Heap
+       快速排序、合併排序、堆排序
+	   88. Merge Sorted Array
+	     解題思路（從後往前雙指針法）
+	   
+ Bit Manipulation / Bitmask
+        二進位計算、權限設計 
+		67. Add Binary
+		從後往前加、處理進位、字元轉數字
+		
+ Recursion / Backtracking 
+      狀態空間樹、解排列組合問題
+	  21. Merge Two Sorted Lists
+	     較小者接到結果串列後面
+			移動該串列的指標
+	  
+ Prefix Sum / Sliding Window
+      區間總和、滑動最值
+	  303. Range Sum Query - Immutable
+	    前綴和是一個累加的陣列，用來快速計算原始陣列中某段範圍的總和。
+ Trie 
+      高速字串查找
+	  14. Longest Common Prefix
+	     方法二：垂直掃描法
+		 方法三：字典樹（Trie）
+ Segment Tree / BIT   
+      區間查詢與更新
+	  3477. Fruits Into Baskets II
+	  方法一：暴力模擬（簡單易懂）
+	  方法二：優化法 — 使用資料結構加速查找第一個可用籃子
+	  
