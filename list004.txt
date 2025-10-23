@@ -1,0 +1,276 @@
+Array / String   
+Hash Table
+Stack / Queue 
+Tree / Binary Tree / BST
+Graph / DFS / BFS / Union Find
+Dynamic Programming  
+Greedy
+Binary Search / Divide and Conquer
+Sorting / Heap
+Bit Manipulation / Bitmask
+Recursion / Backtracking 
+Prefix Sum / Sliding Window
+Trie 
+Segment Tree / BIT   
+
+
+
+
+| 類別             | 面試應對策略                      | 實際工程應用                     |
+| -------------- | --------------------------- | -------------------------- |
+| **資料結構**       | 熟練操作與時間複雜度分析                | 設計可擴展、高效的服務 (Index, Cache) |
+| **演算法思維**      | DP / 回溯 / 貪心練習題             | 建立最佳化與自動化決策系統              |
+| **系統設計整合**     | 探討如何選擇合適結構                  | 資料流處理、分散式架構實作              |
+| **數據分析導向**     | Prefix Sum / Sliding Window | 即時監控、報表聚合分析                |
+| **AI / ML 應用** | Graph, DP, Bitmask          | 圖論推薦系統、特徵組合選擇              |
+
+
+
+
+🧩 Array / String
+
+	面試考點：
+
+	雙指針（Two Pointers）
+
+	字串反轉、旋轉、子字串搜尋
+
+	排序與去重（Sort + Deduplicate）
+
+	子陣列最大和（Kadane’s Algorithm）
+
+	實際應用：
+
+	資料清洗、字串處理（log parsing、text analytics）
+
+	搜尋、比對（pattern matching, KMP）
+
+	影像或音訊訊號處理中的「滑動視窗分析」
+
+🗃️ Hash Table
+
+	面試考點：
+
+	鍵值對儲存與查詢 (O(1))
+
+	去重、計數（頻率統計）
+
+	Two Sum、Group Anagrams
+
+	實際應用：
+
+	快速查表、緩存 (Cache)
+
+	資料索引（Database indexing）
+
+	去重、統計分析
+
+🥞 Stack / Queue
+
+	面試考點：
+
+	括號匹配、逆波蘭表示法
+
+	單調棧（Monotonic Stack）
+
+	BFS（用 Queue 實作）
+
+	實際應用：
+
+	Undo/Redo、瀏覽器返回
+
+	任務排程、佇列系統（e.g. RabbitMQ）
+
+	表達式求值、語法解析（Compiler）
+
+🌳 Tree / Binary Tree / BST
+
+	面試考點：
+
+	遞迴遍歷（Preorder/Inorder/Postorder）
+
+	深度、高度、對稱、平衡
+
+	BST 操作（插入、刪除、搜尋）
+
+	實際應用：
+
+	檔案系統、XML/HTML 結構
+
+	資料庫索引（B/B+ Tree）
+
+	路徑搜尋、遊戲樹（Game AI）
+
+🌐 Graph / DFS / BFS / Union-Find
+
+	面試考點：
+
+	DFS/BFS 遍歷、拓樸排序
+
+	最短路徑（Dijkstra, Floyd-Warshall）
+
+	Union-Find 判斷連通性 / Kruskal 最小生成樹
+
+	實際應用：
+
+	社群網路推薦（Graph traversal）
+
+	網路連線性檢測、群集分析
+
+	導航路線規劃、路徑最佳化
+
+🧠 Dynamic Programming
+
+	面試考點：
+
+	經典：背包、Longest Increasing Subsequence、Coin Change
+
+	狀態轉移方程、記憶化搜索
+
+	實際應用：
+
+	路線規劃、資源配置
+
+	NLP（機率最優路徑、語音辨識）
+
+	財務預測（最佳化決策）
+
+💰 Greedy
+
+	面試考點：
+
+	區間合併、活動選擇
+
+	Huffman 編碼、最小生成樹
+
+	分配問題（Gas Station, Jump Game）
+
+	實際應用：
+
+	資源分配、排程系統
+
+	壓縮演算法（Huffman）
+
+	投資組合或生產排程優化
+
+🎯 Binary Search / Divide and Conquer
+
+	面試考點：
+
+	找界限（左界/右界）
+
+	二分答案（Binary Search on Answer）
+
+	分治（Merge Sort、Quick Sort）
+
+	實際應用：
+
+	資料搜尋與比對
+
+	影像處理（分區分析）
+
+	大數據查找與抽樣
+
+🔢 Sorting / Heap
+
+	面試考點：
+
+	快排、歸併、堆排序
+
+	Top K、Kth Largest
+
+	資料結構堆（Priority Queue）
+
+	實際應用：
+
+	排行榜、即時熱門搜尋
+
+	流式資料處理（Streaming）
+
+	系統任務優先度排程
+
+💡 Bit Manipulation / Bitmask
+
+	面試考點：
+
+	計算位數、子集枚舉
+
+	XOR、AND、OR 操作
+
+	位壓縮 DP（e.g. Traveling Salesman）
+
+	實際應用：
+
+	權限控制（bitmask flags）
+
+	圖形處理、壓縮
+
+	高效狀態儲存
+
+🔁 Recursion / Backtracking
+
+	面試考點：
+
+	全排列、組合、子集
+
+	N-Queens、數獨
+
+	剪枝優化（Pruning）
+
+	實際應用：
+
+	搜尋最佳化解（AI、棋類遊戲）
+
+	約束滿足問題（Scheduling, SAT）
+
+	產生排列組合（Testing, Combinatorics）
+
+📊 Prefix Sum / Sliding Window
+
+	面試考點：
+
+	子陣列和、區間查詢
+
+	固定/可變長度窗口（Subarray/Substring Problems）
+
+	實際應用：
+
+	數據統計（Time Series）
+
+	即時分析（移動平均、監控系統）
+
+	資料流分析（Stream Processing）
+
+🔡 Trie
+
+	面試考點：
+
+	單詞搜尋、前綴匹配
+
+	自動補全（Autocomplete）
+
+	字典樹壓縮
+
+	實際應用：
+
+	搜尋建議（Autocomplete）
+
+	拼字檢查（Spell Checker）
+
+	IP 路由（Longest Prefix Match）
+
+📈 Segment Tree / BIT (Fenwick Tree)
+
+	面試考點：
+
+	區間和 / 區間最值查詢
+
+	區間更新與查詢結合
+
+	實際應用：
+
+	遊戲排名、動態排行榜
+
+	股票交易系統（區間查詢）
+
+	線上數據統計（Real-time analytics）
